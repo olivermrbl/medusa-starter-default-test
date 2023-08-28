@@ -2129,40 +2129,7 @@
   resolved "https://registry.yarnpkg.com/@medusajs/icons/-/icons-0.0.0-snapshot-20230816100247.tgz#eb33a2afad496dbb2f676ecb2ee5fb5f326a1287"
   integrity sha512-Pk7G0DYCp7xD+81MbtR3ULK3a8NzMhr7GwuaY5hlDhRxLl+9I22tkpvM95iCHdXbF0Qe+NeaySF88RMf/6yK9Q==
 
-"@medusajs/medusa-cli@^1.3.16":
-  version "1.3.17"
-  resolved "https://registry.yarnpkg.com/@medusajs/medusa-cli/-/medusa-cli-1.3.17.tgz#0f5d29fe19d0e0826575561db099010808555d20"
-  integrity sha512-CSmfKeDXcyPACpdK2uFxSV6L642NDiUxFlcDMVTyeQ/dsUQv3B+gM2YmH3DLUYqn0Eb1YJxxGbmQHpLZnCiqaw==
-  dependencies:
-    "@medusajs/utils" "^1.9.2"
-    axios "^0.21.4"
-    chalk "^4.0.0"
-    configstore "5.0.1"
-    core-js "^3.6.5"
-    dotenv "^8.2.0"
-    execa "^5.1.1"
-    fs-exists-cached "^1.0.0"
-    fs-extra "^10.0.0"
-    hosted-git-info "^4.0.2"
-    inquirer "^8.0.0"
-    is-valid-path "^0.1.1"
-    meant "^1.0.3"
-    medusa-core-utils "^1.2.0"
-    medusa-telemetry "^0.0.16"
-    open "^8.0.6"
-    ora "^5.4.1"
-    pg "^8.11.0"
-    pg-god "^1.0.12"
-    prompts "^2.4.2"
-    regenerator-runtime "^0.13.11"
-    resolve-cwd "^3.0.0"
-    semver "^7.3.8"
-    stack-trace "^0.0.10"
-    ulid "^2.3.0"
-    winston "^3.8.2"
-    yargs "^15.3.1"
-
-"@medusajs/medusa-cli@^1.3.20":
+"@medusajs/medusa-cli@^1.3.16", "@medusajs/medusa-cli@^1.3.20":
   version "1.3.20"
   resolved "https://registry.yarnpkg.com/@medusajs/medusa-cli/-/medusa-cli-1.3.20.tgz#496bd1fa0800142e195c403d032e659954133730"
   integrity sha512-kRg6Rt+jqw1vdUXhKx55EQ8BNI8kw1GxdbkWY7nQeSZBTLWIDnaCc1JudA5n8viE/ow4iMeLX5FWzZcey06kIQ==
@@ -2382,16 +2349,7 @@
     react-day-picker "^8.8.0"
     tailwind-merge "^1.13.2"
 
-"@medusajs/utils@^1.9.1", "@medusajs/utils@^1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@medusajs/utils/-/utils-1.9.2.tgz#0508247c8db103c1d219505886109cb24750abaa"
-  integrity sha512-t4WNtjud9gHtm9F0Y8SSvUcL4p5MQ13hlduowksvMzx1gmMuNdJJayhjOdcWXOR/yrM0EQ0aGZgnlmZUaK0vSQ==
-  dependencies:
-    awilix "^8.0.1"
-    glob "^7.1.6"
-    ulid "^2.3.0"
-
-"@medusajs/utils@^1.9.6":
+"@medusajs/utils@^1.9.1", "@medusajs/utils@^1.9.2", "@medusajs/utils@^1.9.6":
   version "1.9.6"
   resolved "https://registry.yarnpkg.com/@medusajs/utils/-/utils-1.9.6.tgz#8e20e46d73c041b04cdfd76a4a98a54147bd3a46"
   integrity sha512-tgENGCEfsydEjwB2js34LPHvyqq0Fh6gS+rKc/k2Hi8KnWlBii3nqMEVoDiZXW2yFhQsFdyeZIrZ4fSo1kc77g==
@@ -5277,7 +5235,7 @@ axios-retry@^3.1.9:
     "@babel/runtime" "^7.15.4"
     is-retry-allowed "^2.2.0"
 
-axios@^0.21.1, axios@^0.21.4:
+axios@^0.21.4:
   version "0.21.4"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
   integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
@@ -6727,11 +6685,6 @@ dotenv@^16.0.3:
   version "16.3.1"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
   integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
-
-dotenv@^8.2.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.6.0.tgz#061af664d19f7f4d8fc6e4ff9b584ce237adcb8b"
-  integrity sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==
 
 downshift@^8.1.0:
   version "8.1.0"
@@ -9099,21 +9052,6 @@ medusa-react@*:
   dependencies:
     "@medusajs/medusa-js" "*"
 
-medusa-telemetry@^0.0.16:
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/medusa-telemetry/-/medusa-telemetry-0.0.16.tgz#f087494df4646c5c7cf281603595a213b50b116a"
-  integrity sha512-i9FVCfILzVQXXYuPCNf4h9BwTqi1uVyL08zzKLTCq/ttodyMb77TmnvolrE5XuvLsRbw3iqQ3aGq+sn0aURaVQ==
-  dependencies:
-    axios "^0.21.1"
-    axios-retry "^3.1.9"
-    boxen "^5.0.1"
-    ci-info "^3.2.0"
-    configstore "5.0.1"
-    global "^4.4.0"
-    is-docker "^2.2.1"
-    remove-trailing-slash "^0.1.1"
-    uuid "^8.3.2"
-
 medusa-telemetry@^0.0.17:
   version "0.0.17"
   resolved "https://registry.yarnpkg.com/medusa-telemetry/-/medusa-telemetry-0.0.17.tgz#44e434307d7078491fb0bddb47883e6af7ec0ba2"
@@ -9865,11 +9803,6 @@ pg-connection-string@2.5.0:
   resolved "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-2.5.0.tgz#538cadd0f7e603fc09a12590f3b8a452c2c0cf34"
   integrity sha512-r5o/V/ORTA6TmUnyWZR9nCj1klXCO2CEKNRlVuJptZe85QuhFayC7WeMic7ndayT5IRIR0S0xFxFi2ousartlQ==
 
-pg-connection-string@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-2.6.1.tgz#78c23c21a35dd116f48e12e23c0965e8d9e2cbfb"
-  integrity sha512-w6ZzNu6oMmIzEAYVw+RLK0+nqHPt8K3ZnknKi+g48Ak2pr3dtljJW3o+D/n2zzCG07Zoe9VOX3aiKpj+BN0pjg==
-
 pg-connection-string@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-2.6.2.tgz#713d82053de4e2bd166fab70cd4f26ad36aab475"
@@ -9913,22 +9846,7 @@ pg-types@^2.1.0:
     postgres-date "~1.0.4"
     postgres-interval "^1.1.0"
 
-pg@^8.11.0, pg@^8.3.0:
-  version "8.11.1"
-  resolved "https://registry.yarnpkg.com/pg/-/pg-8.11.1.tgz#297e0eb240306b1e9e4f55af8a3bae76ae4810b1"
-  integrity sha512-utdq2obft07MxaDg0zBJI+l/M3mBRfIpEN3iSemsz0G5F2/VXx+XzqF4oxrbIZXQxt2AZzIUzyVg/YM6xOP/WQ==
-  dependencies:
-    buffer-writer "2.0.0"
-    packet-reader "1.0.0"
-    pg-connection-string "^2.6.1"
-    pg-pool "^3.6.1"
-    pg-protocol "^1.6.0"
-    pg-types "^2.1.0"
-    pgpass "1.x"
-  optionalDependencies:
-    pg-cloudflare "^1.1.1"
-
-pg@^8.11.2:
+pg@^8.11.0, pg@^8.11.2, pg@^8.3.0:
   version "8.11.3"
   resolved "https://registry.yarnpkg.com/pg/-/pg-8.11.3.tgz#d7db6e3fe268fcedd65b8e4599cda0b8b4bf76cb"
   integrity sha512-+9iuvG8QfaaUrrph+kpF24cXkH1YOOUeArRNYIxq1viYHZagBxrTno7cecY1Fa44tJeZvaoG+Djpkc3JwehN5g==
